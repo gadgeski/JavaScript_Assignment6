@@ -4,27 +4,28 @@
 <h1>HTML (ウェブページの構造)</h1>
 HTML はウェブページの骨組みを作る言語です。表示されるコンテンツやその配置を定義します。
 
-<h3>!DOCTYPE html</h3>: これはHTML5の文書であることをブラウザに伝えています。
+<h3>!DOCTYPE html</h3>これはHTML5の文書であることをブラウザに伝えています。
 
-<h3>html lang="ja"</h3>: この要素は、文書が日本語で書かれていることを示します。
+<h3>html lang="ja"</h3>この要素は、文書が日本語で書かれていることを示します。
 
-<h3>head</h3>:
+<h3>head</h3>
 
-<h3>meta charset="UTF-8"</h3>>: 文字コードをUTF-8に設定し、様々な言語の文字が正しく表示されるようにします。
+<h3>meta charset="UTF-8"</h3>文字コードをUTF-8に設定し、様々な言語の文字が正しく表示されるようにします。
 
-<h3>meta name="viewport" content="width=device-width, initial-scale=1.0"</h3>: ページをデバイスの画面幅に合わせて表示し、初期の拡大率を1.0に設定します。これにより、スマートフォンなどでも見やすい表示になります。
+<h3>meta name="viewport" content="width=device-width, initial-scale=1.0"</h3>ページをデバイスの画面幅に合わせて表示し、初期の拡大率を1.0に設定します。これにより、スマートフォンなどでも見やすい表示になります。
 <h3>title</h3>: ウェブブラウザのタブやウィンドウに表示されるページのタイトルです。
 
-<h3>link rel="stylesheet" href="style.css"</h3>: style.cssという外部のCSSファイルを読み込みます。このファイルにページの見た目を整える指示が書かれています。
+<h3>link rel="stylesheet" href="style.css"</h3>style.cssという外部のCSSファイルを読み込みます。このファイルにページの見た目を整える指示が書かれています。
 
-<h3>body</h3>:
-  <h3>div class="box"</h3>: 「シンプルなカウンター」というテキストを含む箱（コンテナ）を作成します。このdiv要素にはboxというクラス名が付けられており、CSSで特定のスタイルを適用できます。
+<h3>body</h3>
+  <h3>div class="box"</h3> 「シンプルなカウンター」というテキストを含む箱（コンテナ）を作成します。
+  このdiv要素にはboxというクラス名が付けられており、CSSで特定のスタイルを適用できます。
 
-  <h3>p id="counterDisplay"</h3>: 段落要素です。ここにカウンターの数値が表示されます。初期値は0です。counterDisplayというIDが設定されており、JavaScriptからこの要素を簡単に特定できます。
+  <h3>p id="counterDisplay"</h3>段落要素です。ここにカウンターの数値が表示されます。初期値は0です。counterDisplayというIDが設定されており、JavaScriptからこの要素を簡単に特定できます。
 
-  <h3>button id="incrementButton"</h3>: カウンターの数を増やすためのボタンです。「Count Up」というテキストが表示されます。incrementButtonというIDが設定されており、JavaScriptからこのボタンのクリックを検出できます。
+  <h3>button id="incrementButton"</h3>カウンターの数を増やすためのボタンです。「Count Up」というテキストが表示されます。incrementButtonというIDが設定されており、JavaScriptからこのボタンのクリックを検出できます。
   
-  <h3>script src="script.js"</h3>: script.jsという外部のJavaScriptファイルを読み込みます。このファイルに、カウンターの動作（ボタンを押したときに数値が変わるなど）を制御するコードが書かれています。
+  <h3>script src="script.js"</h3>script.jsという外部のJavaScriptファイルを読み込みます。このファイルに、カウンターの動作（ボタンを押したときに数値が変わるなど）を制御するコードが書かれています。
 
 <h1>CSS (ウェブページの見た目)</h1>
 CSS は HTML で作られたウェブページの見た目をデザインする言語です。色、サイズ、配置などを指定します。
